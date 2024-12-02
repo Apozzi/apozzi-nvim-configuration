@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{amsmath, amsthm, amssymb} % Math packages
+\usepackage{graphicx} % For including images
+\usepackage{geometry} % For page layout
+\usepackage{fancyhdr} % For custom headers and footers
+\usepackage{hyperref} % For hyperlinks
+\usepackage{enumerate} % For customizing lists
+\usepackage{listings} % For typesetting code
+\usepackage{xcolor} % For color definitions
+\usepackage{setspace} % For adjusting line spacing
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage[english]{babel} % For language settings
+\usepackage{framed} % For framed text
+\usepackage{caption} % For customizing captions
+
+% Custom Variables
+\newcommand{\mytitle}{Title \Rom{1}}
+\newcommand{\myauthor}{Eli Bell}
+\newcommand{\myprofessor}{Professor Link}
+\newcommand{\mycourse}{CSC-206}
+
+% Page Layout
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=12pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\myauthor\\\today}
+\chead{\mytitle}
+\rhead{\myprofessor\\ \mycourse}
+\rfoot{Page \thepage}
+
+% Custom command for Roman numerals
+\newcommand{\Rom}[1]{\MakeUppercase{\romannumeral #1}}
+
+\begin{document}
+
+\title{\mytitle}
+\author{\myauthor}
+\date{\today}
+\maketitle
+\newpage
+
+\section*{Part: \Rom{1}}
+
+% insert here
+
+\end{document}
