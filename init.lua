@@ -27,7 +27,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 
-require("nvim-tree").setup()
+require("nvim-tree").setup({
+  update_focused_file = {
+    enable = true,
+    ignore_list = {},
+  }
+})
 
 -- Abre o NvimTree automaticamente ao iniciar o Neovim
 vim.api.nvim_create_autocmd("VimEnter", {
