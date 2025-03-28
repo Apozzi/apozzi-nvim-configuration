@@ -6,3 +6,4 @@
 - Executar "choco install ctags" (Para redirecionar no control)
 - Executar "npm install -g typescript-language-server typescript" (Para programação typescript)
 - Para adicionar novos plugins basta adicionar uma pasta dentro de "lua/plugins".
+- Existem alguns plugins extras e configuraçoes dentro de "lua/optional_plugins" caso queira utilizar algum deles basta copiar os plugins desta pasta para dentro do "lua/plugins".
