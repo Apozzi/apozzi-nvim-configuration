@@ -7,7 +7,7 @@
 - Executar "npm install -g typescript-language-server typescript" (Para programação typescript)
 - Para adicionar novos plugins basta adicionar uma pasta dentro de "lua/plugins".
 - Existem alguns plugins extras e configuraçoes dentro de "lua/optional_plugins" caso queira utilizar algum deles basta copiar os plugins desta pasta para dentro do "lua/plugins".
-- Caso for usa plugin opcioanl do Copilot dentro do Neovim basta executar ":Copilot setup" e ":Copilot disable" caso quiser desativar.
+- Caso for usa plugin opcional do Copilot dentro do Neovim basta executar ":Copilot setup" e ":Copilot disable" caso quiser desativar.
 
 ## Screenshot
 
